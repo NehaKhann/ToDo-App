@@ -33,6 +33,7 @@ function App() {
           placeholder="Add Item"
           onChange={Updatedata}
           value={data}
+          autoComplete="off"
         />
         <button className="addBtn" onClick={listOfItems}>
           Add
