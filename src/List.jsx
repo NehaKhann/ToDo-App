@@ -17,10 +17,10 @@ function List(props) {
               props.delete(props.id);
             }}
           >
-            Wanna Delete your item? Click this!
+            Delete
           </button>
           <button className="cut" onClick={Line}>
-            Wanna Cut your item ? Click this!
+            x
           </button>
         </li>
       </ul>
